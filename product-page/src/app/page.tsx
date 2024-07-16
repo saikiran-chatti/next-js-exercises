@@ -3,9 +3,9 @@ import image from '../../public/image-product-desktop.jpg';
 export default function Home() {
   return (
     <div className='flex justify-center items-center w-screen h-screen bg-[#F2EBE4]'>
-      <div className='container w-1/2 h-1/2 bg-white rounded-xl flex flex-row'>
-        <Image src={image} alt='image' className='rounded-l-lg'/>
-        <div className='px-8 py-4 flex flex-col gap-3'>
+      <div className='w-1/2 h-1/2 bg-white rounded-xl flex flex-row'>
+        <Image src={image} alt='image' className='rounded-l-lg' />
+        <div className='px-8 py-4 flex flex-col gap-3 justify-evenly'>
           <p className='tracking-widest font-light text-sm text-gray-400'>
             PERFUME
           </p>
@@ -16,9 +16,7 @@ export default function Home() {
           </div>
           <p className='text-gray-500'>
             A floral, solar and voluptous A floral, solar and voluptous A
-            floral, solar and voluptous A floral, solar and voluptous A floral,
-            solar and voluptousA floral, solar and voluptous. A floral, solar
-            and voluptous A floral, solar and voluptousA
+            floral, solar and voluptous A floral, solar and voluptous.
           </p>
           <div className='flex flex-row gap-5 items-center'>
             <p className='text-green-700 font-semibold text-2xl'>$149.99</p>
